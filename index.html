@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kvíz</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Kvíz</h2>
+
+    <form id="kvizForm">
+      <div class="form-group">
+        <label for="k1">Mi a fővárosa Magyarországnak?</label>
+        <input type="text" class="form-control" id="k1" required>
+      </div>
+
+      <div class="form-group">
+        <label for="k2">Melyik a legnagyobb óceán a Földön?</label>
+        <input type="text" class="form-control" id="k2" required>
+      </div>
+
+      <div class="form-group">
+        <label for="k3">Ki festette a "Mona Lisát"?</label>
+        <input type="text" class="form-control" id="k3" required>
+      </div>
+
+      <div class="form-group">
+        <label for="k4">Melyik évben kezdődött a második világháború?</label>
+        <input type="text" class="form-control" id="k4" required>
+      </div>
+
+      <div class="form-group">
+        <label for="k5">Milyen színű a híres "Mona Lisa" festmény háttérszíne?</label>
+        <input type="text" class="form-control" id="k5" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Válaszok beküldése</button>
+    </form>
+  </div>
+
+  <div id="result"></div>
+  <meter id="score-meter" min="0" max="5" value="0"></meter>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
